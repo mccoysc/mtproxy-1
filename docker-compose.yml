@@ -14,7 +14,7 @@ services:
       - ./config:/data
     ports:
       - "2398:2398"
-      - "8001:8001"
+      - "$PORT:$PORT"
     networks:
       - tg_stack
 
